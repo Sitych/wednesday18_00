@@ -1,0 +1,14 @@
+from datetime import date
+m = int(input("input month: "))
+d = int(input("input day: "))
+if d >12;
+print ("каеец")
+d1 = date(2019, m, d)
+d2 = date(2020,1,1)
+a = (d2 - d1).days
+if a % 10 == 1:
+   print("Осталось", a, "день до Нового Года")
+elif 1 < a % 10 < 5:
+   print("Осталось", a, "дня до Нового Года") 
+else:
+   print("Осталось", a, "дней до Нового Года")
